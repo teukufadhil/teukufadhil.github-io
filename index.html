@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Apple</title>
+  </head>
+  <body>
+  	
+  	<div class="hero-image">
+		<!-- Title, button Find It -->
+		<div class="hero-text">
+    		<h1>Apple.inc</h1>
+    		<p>"Think Different."</p>
+    		<!-- tanggal -->
+			<p id="date"></p>
+			<script>
+				n =  new Date();
+				y = n.getFullYear();
+				m = n.getMonth() + 1;
+				d = n.getDate();
+				document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+			</script>
+    		<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Find It</button>
+ 		</div>
+ 	</div> 
+
+ 	<!-- Menu -->
+ 	<div class="container">
+ 		<ul class="nav justify-content-center">
+		  <li class="nav-item">
+		    <a class="nav-link active" href="#">Product Information</a>
+		  </li>
+		  <li class="nav-item dropdown">
+    		<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    		<div class="dropdown-menu">
+      			<a class="dropdown-item" href="#">Technology & Research</a>
+      			<a class="dropdown-item" href="#">Developer World</a>
+      			<a class="dropdown-item" href="#">Groups & Interest</a>
+      			<a class="dropdown-item" href="#">Resource Online</a>
+    		</div>
+  		  </li>
+  		  <li class="nav-item">
+		    <a class="nav-link" href="#">Costumer Support</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">About Apple</a>
+		  </li>
+		</ul>
+ 	</div>
+
+ 	<!-- card berita -->
+ 	<div class="container">
+ 		<div class="card">
+  			<div class="card-body">
+				<div class="row row-cols-1 row-cols-md-2">
+				  <!-- row berita -->
+				  <div class="col mb-4">
+				    <div class="card">
+				      <img src="3.png" class="card-img-top" alt="iPad Pro">
+				      <div class="card-body">
+				        <h5 class="card-title"> Your next computer is not a computer.</h5>
+				        <p class="card-text">It’s a magical piece of glass.It’s so fast most PC laptops can’t catch up. It has pro cameras that can transform reality. And you can use it with touch, pencil, keyboard, and now trackpad. It’s the new iPad Pro.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <!-- row berita -->
+				  <div class="col mb-4">
+				    <div class="card">
+				      <img src="1.png" class="card-img-top" alt="iPhone SE">
+				      <div class="card-body">
+				        <h5 class="card-title"> Lots to love. Less to spend.</h5>
+				        <p class="card-text"> iPhone SE packs our most powerful chip into our most popular size at our most affordable price. It’s just what you’ve been waiting for.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <!-- row berita -->
+				  <div class="col mb-4">
+				    <div class="card">
+				      <img src="2.png" class="card-img-top" alt="iPhone 11">
+				      <div class="card-body">
+				        <h5 class="card-title"> Just the right amount of everything.</h5>
+				        <p class="card-text"> A new dual‑camera system captures more of what you see and love. The fastest chip ever in a smartphone and all‑day battery life let you do more and charge less. And the highest‑quality video in a smartphone, so your memories look better than ever.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <!-- row berita -->
+				  <div class="col mb-4">
+				    <div class="card">
+				      <img src="4.png" class="card-img-top" alt="iWatch">
+				      <div class="card-body">
+				        <h5 class="card-title"> You’ve never seen a watch like this.</h5>
+				        <p class="card-text"> This watch has a display that never sleeps. With the Always-On Retina display, you always see the time and your watch face.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <!-- end berita -->
+  				</div>
+			</div>
+ 		</div>
+ 	</div>
+
+ 	<!-- Footer sumber : https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
+	<footer class="page-footer font-small blue">
+
+  		<!-- Copyright -->
+  		<div class="footer-copyright text-center py-3">© 2020 Copyright:
+   			<a href="https://www.apple.com"> Apple.com</a>
+  		</div>
+  		<!-- Copyright -->
+	</footer>
+	<!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
